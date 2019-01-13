@@ -1,18 +1,6 @@
 defmodule HedwigWotd do
   @moduledoc """
-  Documentation for HedwigWotd.
+  Hedwig Word of the Day fetches the word of the from wordsmith.org and
+  replies with the word.
   """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> HedwigWotd.hello
-      :world
-
-  """
-  def hello do
-    :world
-  end
 end
