@@ -1,21 +1,22 @@
-# HedwigWotd
+# hedwig_wotd [![Build Status](https://travis-ci.org/maxbeizer/hedwig_wotd.svg?branch=master)](https://travis-ci.org/maxbeizer/hedwig_wotd)
+Get the word of the day from [Hedwig](https://github.com/hedwig-im).
 
-**TODO: Add description**
+## Usage
+```
+me> hedwig wotd
+hedwig> allicient => adjective: Having the power to attract; appealing.
+https://wordsmith.org/words/allicient.html
+```
 
 ## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `hedwig_wotd` to your list of dependencies in `mix.exs`:
+Add `hedwig_wotd` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:hedwig_wotd, "~> 0.1.0"}
+    {:hedwig_wotd, "~> 1.0.0"}
   ]
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/hedwig_wotd](https://hexdocs.pm/hedwig_wotd).
-
+Docs can be found at [https://hexdocs.pm/hedwig_wotd](https://hexdocs.pm/hedwig_wotd).
